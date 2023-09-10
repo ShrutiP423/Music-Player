@@ -1,0 +1,138 @@
+body{
+    background: linear-gradient(#d550f0, #83e2ba) ;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#f0a9e0, #8cd828);
+    align-items: center;
+    padding: 1px 2px;
+    margin: 0px 500px;
+    box-shadow: 2px 2px 5px #000, -2px -2px 5px white;
+    border-radius: 5px;
+}
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.now_playing{
+    
+    font-size: 17px;
+    padding: 5px 5px;
+    margin: 18px 37px ;
+}
+
+
+
+
+.image img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    box-shadow: 2px 2px 5px black, -2px -2px 5px white;
+}
+
+.track_details{
+    color: black;
+}
+
+.track_name{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.track_artist{
+    padding: 5px 5px;
+    margin: 10px 10px;
+    font-size: 20px;
+    opacity: 90%;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 20px 39px;;
+}
+
+.material-symbols-rounded{
+    padding: 10px 10px;
+    margin: 10px 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.material-symbols-rounded:hover{
+    cursor: pointer;
+    opacity: 50%;
+    
+}
+
+.prev_track{
+    margin: 4px 8px 10px 10px;
+    border-radius: 100px;
+    box-shadow: 1px 1px 3px black, -1px -1px 3px white;
+}
+
+.play{
+    margin: 4px 8px 10px 10px;
+    border-radius: 100px;
+    box-shadow: 1px 1px 3px black, -1px -1px 3px white;
+}
+
+.fwd_track{
+    margin: 4px 8px 10px 10px;
+    border-radius: 100px;
+    box-shadow: 1px 1px 3px black, -1px -1px 3px white;
+}
+
+.curr_time{
+    margin: 0px 225px 0px 0px;
+}
+
+
+
+.div_footer{
+     background-color: rgba(0, 0, 0, 0.2);
+     color: #000;
+     padding: 10px 10px;
+     margin: 30px 0px;
+     text-align: center;
+     
+}
+
+
+.progress{
+    height: 5px;
+    width: 90%;
+    background-color: #ebe1e1;
+    border-radius: 15px;
+    margin: 10px 10px;
+}
+
+.progress_bar{
+    background: #000;
+    border-radius: inherit;
+    height: inherit;
+    width: 1px;
+    cursor: pointer;
+    position: relative;
+}
+
+.progress_bar span{
+    position: absolute;
+    background: #000;
+    height: 10px;
+    width: 10px;
+    border-radius: inherit;
+    transform: translateY(-25%);
+    right: -5px;
+}
